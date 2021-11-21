@@ -17,3 +17,7 @@ I have added alt tags to each image and icon
 I have adjusted the HTML file to use semantic tags within the header along with using sections instead of divs within the main body of content and benefits
 
 I fixed the id tags within the nav making the links usable
+
+## Screenshot of application
+
+![Screenshot](screenshot.png)
