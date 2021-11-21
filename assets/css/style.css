@@ -7,24 +7,24 @@
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/* adjusted header class id to the header semantic tag */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-/* Hero style begin */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,8 +58,8 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* rewrote all code for hero content from SEO, Online Reputation Manangement, etc. into the same element tag and moved with other hero element */
-.hero-content {
+/* rewrote all code from SEO, Online Reputation Manangement, etc. into the same element tag and moved within the CSS file */
+.MB-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -67,12 +67,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* adjust max hieght for every img within the hero now*/
-.hero-content img {
+/* adjust max height for every img within the main body of content now*/
+.MB-content img {
     max-height: 200px;
 }
-/* element will now adjust every h2 within the hero now */
-.hero-content h2 {
+/* element will now adjust every h2 within the main body of content now */
+.MB-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -92,10 +92,9 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/* Hero style ends */
 
 /* benfits style begins */
-.benefits {
+.benefit {
     margin-right: 20px;
     padding: 20px;
     clear: both;
